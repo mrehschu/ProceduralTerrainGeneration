@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28af453efd781a44b39a8458730162d, type: 3}
+  m_Name: Mountains
+  m_EditorClassIdentifier: 
+  biomeName: Mountains
+  commonness: 0.33333334
+  regions:
+  - name: Meadow
+    maxHeight: 0.42
+    color: {r: 0.04765931, g: 0.4811321, b: 0.16475907, a: 0}
+  - name: Hilltop
+    maxHeight: 0.5
+    color: {r: 0.013705945, g: 0.26415092, b: 0.025665527, a: 0}
+  - name: LowerMountain
+    maxHeight: 0.57
+    color: {r: 0.3490566, g: 0.22167501, b: 0.103729084, a: 0}
+  - name: UpperMountain
+    maxHeight: 0.73
+    color: {r: 0.2924528, g: 0.18143004, b: 0.07863118, a: 0}
+  - name: Mountaintop
+    maxHeight: 1
+    color: {r: 1, g: 1, b: 1, a: 0}
+  meshHeightMultiplier: 90
+  meshHeightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0009918213
+      value: 0.088378906
+      inSlope: -0.014769286
+      outSlope: -0.014769286
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.11561672
+    - serializedVersion: 3
+      time: 0.42035052
+      value: 0.12538207
+      inSlope: 0.17072992
+      outSlope: 0.17072992
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.11357901
+      outWeight: 0.23463914
+    - serializedVersion: 3
+      time: 0.6396351
+      value: 0.45384955
+      inSlope: 1.6675297
+      outSlope: 1.6675297
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.24011439
+      outWeight: 0.15140985
+    - serializedVersion: 3
+      time: 0.8553942
+      value: 0.80879104
+      inSlope: 0.36434135
+      outSlope: 0.36434135
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15018374
+      outWeight: 0.18947472
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.5202121
+      outSlope: 0.5202121
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22636311
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
